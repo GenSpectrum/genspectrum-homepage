@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>GenSpectrum</title>
+	<style type="text/css">
+		body {
+			margin:  0;
+		}
+		a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+		.half {
+			height:  50vh;
+			width: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			opacity: 0.6;
+		}
+		.half:hover {
+			opacity: 1;
+		}
+		.mpox {
+			background-image: url("monkeypox.jpeg");
+		}
+		.cov {
+			background-image: url("sars-cov-2.jpeg");
+		}
+		.text {
+			font-size: 10vw;
+			color:  white;
+		}
+	</style>
+</head>
+
+<body>
+	<a href="https://mpox.genspectrum.org">
+		<div class="half mpox">
+			<div class="text">
+				Mpox-Spectrum
+			</div>
+		</div>
+	</a>
+	<a href="https://cov-spectrum.org">
+		<div class="half cov">
+			<div class="text">
+				CoV-Spectrum
+			</div>
+		</div>
+	</a>
+</body>
+</html>
